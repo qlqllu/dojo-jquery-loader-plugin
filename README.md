@@ -10,6 +10,7 @@ Different module can load different jquery version.
 ```javascript
 define(['jquery-loader!path-to-jquery, path-to-jqueryplugin'], function($){});
 ```
+
 The path is the same as the module path, can be absolute path, relative path, or module name.
 You can load jquery plugins also, seperated by comma.
 
